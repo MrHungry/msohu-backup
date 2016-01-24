@@ -1,21 +1,21 @@
 # msohu-backup
 题目要求：
 ------
-写一个python脚本main.py，使用方式如下：
+写一个python脚本main.py，使用方式如下：</br>
 main.py -d 60 -u http://m.sohu.com -o /tmp/backup 
 
 功能要求：
 ------
-1、每60秒备份一次 http://m.sohu.com 这个页面，并按时间分隔保存在/tmp/backup目录下，如/tmp/backup/201601041325/；
-2、用浏览器打开保存的页面时效果需要和线上的一致；
-3、所有内容，包括图片，js，css等都需要存储在本地；
-4、代码以github地址方式提交。
-
-/tmp/backup/201601041325/这个目录的结构如下：
-index.html  #html内容
-images/  # 存放图片
-js/  # 存放js
-css/  # 存放css
+1、每60秒备份一次 http://m.sohu.com 这个页面，并按时间分隔保存在/tmp/backup目录下，如/tmp/backup/201601041325/； </br>
+2、用浏览器打开保存的页面时效果需要和线上的一致； </br>
+3、所有内容，包括图片，js，css等都需要存储在本地； </br>
+4、代码以github地址方式提交。 </br>
+</br>
+/tmp/backup/201601041325/这个目录的结构如下： </br>
+index.html  #html内容 </br>
+images/  # 存放图片 </br>
+js/  # 存放js </br>
+css/  # 存放css </br>
 
 完成过程：
 ------
